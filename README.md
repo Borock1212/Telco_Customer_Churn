@@ -13,25 +13,26 @@ This project analyzes a Telco customer dataset to identify the key drivers of cu
 
 ## 2. Tech Stack
 
-* **SQL (Google BigQuery / PostgreSQL):** Used for initial data exploration, filtering, and aggregation.
-* **Python (Pandas & Matplotlib):** Used for data cleaning, transformation, and initial exploratory data analysis (EDA).
+* **SQL (Google BigQuery / PostgreSQL):** Used for data cleaning, transformation, exploration, and aggregation.
 * **Tableau:** Used for building the final interactive dashboard and visualizing the key findings.
 
 ## 3. Analysis & Key Findings
 
-[cite_start]By analyzing the data and visualizing it in Tableau[cite: 207], I uncovered four major insights:
+My analysis process was straightforward, moving from the database directly to the dashboard.
 
-* **Insight 1: Contract Type is the Biggest Factor.**
-    [cite_start]The 'Customer Churn by Contract' analysis shows that customers on a **Month-to-Month contract** churn at a significantly higher rate than those on One-Year or Two-Year contracts[cite: 178].
+### Stage 1: Data Cleaning & Preparation (SQL)
+I loaded the raw dataset into a SQL database. I then performed all data cleaning and transformation, including:
+* Handling missing values.
+* [cite_start]Correcting data types (e.g., converting 'TotalCharges' to a numeric type [cite: 57, 97]).
+* [cite_start]Creating a `ChurnFlag` for easier analysis in Tableau[cite: 95, 96].
 
-* **Insight 2: Internet Service Matters.**
-    Customers with **Fiber Optic** internet service have the highest churn rate among all internet service types (Fiber Optic, DSL, or No Internet)[cite: 184]. This suggests a potential issue with price, reliability, or competition for this specific service.
-
-* **Insight 3: Inconvenient Payments Lead to Churn.**
-    The 'Customer Churn by Payment Method' chart clearly indicates that customers who pay via **Electronic Check** are far more likely to leave[cite: 192].
-
-* **Insight 4: New Customers are at High Risk.**
-    The 'Churn by Tenure Group' analysis reveals that the majority of churn occurs within the **first 6-12 months** of a customer's lifecycle[cite: 200].
+### Stage 2: Dashboarding & Visualization (Tableau)
+Once the data was clean, I connected it to Tableau. I built 5 key worksheets to find the drivers of churn:
+1.  [cite_start]**Churn vs Active** (Overall churn rate) [cite: 168]
+2.  [cite_start]**Churn by Contract** (Key Insight) [cite: 178]
+3.  [cite_start]**Churn by Internet Service** (Key Insight) [cite: 184]
+4.  [cite_start]**Churn by Payment Method** (Key Insight) [cite: 191]
+5.  [cite_start]**Churn by Tenure Group** (Key Insight) [cite: 200]
 
 ## 4. Business Recommendations
 
