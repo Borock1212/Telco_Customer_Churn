@@ -2,7 +2,8 @@
 
 ## [➡️ View the Interactive Dashboard on Tableau Public](https://public.tableau.com/views/Telco_Customer_Churn_Analysis_17617532658250/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-![Dashboard Screenshot](https://github.com/use-attachments/assets/c4d5c195-2df9-4fd6-a800-0b8a212f5f95f)
+![Dashboard Screenshot](https://github.com/user-attachments/assets/901a4453-4f2f-40bd-846e-96bc4859329c)
+
 
 
 ## 1. Business Problem
