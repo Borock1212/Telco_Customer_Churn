@@ -48,6 +48,6 @@ Based on these findings, I recommend the following data-driven actions:
 
 ## 5. Project Files
 
-* **`/sql_queries/`**: Contains the `.sql` files used for data exploration.
+* **`sql_analysis/`**: Contains the `.sql` files used for data exploration.
 * **`/data/`**: Contains the `Telco_Customer_Churn_clean.csv` dataset used for the analysis.
 * **`Telco_Customer_Churn_Analysis.twb`**: The Tableau Workbook file containing all worksheets and the final dashboard.
