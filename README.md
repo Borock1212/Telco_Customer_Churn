@@ -1,6 +1,6 @@
 # Telco Customer Churn Analysis
 
-## [➡️ View the Interactive Dashboard on Tableau Public]([httpsS://public.tableau.com/s/YOUR_LINK_HERE](https://public.tableau.com/views/Telco_Customer_Churn_Analysis_17617532658250/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))
+## [➡️ View the Interactive Dashboard on Tableau Public]([(https://public.tableau.com/views/Telco_Customer_Churn_Analysis_17617532658250/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)])
 
 ![Dashboard Screenshot]([link_to_your_screenshot.png](https://github.com/user-attachments/assets/4d95e196-8d2b-4881-b18d-b2125161493f))
 
